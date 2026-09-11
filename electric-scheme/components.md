@@ -1,16 +1,17 @@
-
-| Name  | Quantity |  Components    |
-|-------|-----|-------|
-|UArduino | 1 | Arduino Uno R3 |
-|BAT9V | 1 |  9 V Battery |
-|U5V1, U5V2, U5V3, U5V4 | 4 | 5V Regulator [LM7805] |
-|SERVO1, SERVO2, SERVO3 | 3 | Servo 180° |
-|R1, R2, R3, R4, R5 | 5 | 1kOhms resistor |
-|UTempSens1, UTempSens2 | 2 | Temperature sensor [TMP36]
-|T1, T2, T3 | 3 | BJT NPN Transistor |
-|K1 | 1 | Relay DPDT |
-| Breadboard | 1 | Breadboard |
-| PIEZO1 |	1 |	Active Piezo |
-| S1 | 1 | Button |
-| MFan1 |	1 |	CC Motor |
-| Q1, Q2 |	2 |	Light sensor [fototransistor] |
+| Reference | Value | Qty | Description |
+|---|---|---:|---|
+| BT1 | Battery | 1 | Multiple-cell battery |
+| BZ1 | Buzzer | 1 | Buzzer, polarized |
+| J1 | Power | 1 | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/) |
+| J2 | Digital/PWM | 1 | Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/) |
+| J3 | Analog | 1 | Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/) |
+| J4 | Digital/PWM | 1 | Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/) |
+| K1 | Relay_DPDT | 1 | Relay DPDT, monostable, EN50005 |
+| M1, M2, M3 | Motor_Servo | 3 | Servo Motor (Futaba, HiTec, JR connector) |
+| M4 | Fan | 1 | Fan |
+| Q1, Q2, Q3 | NPN | 3 | Bipolar transistor symbol for simulation only, substrate tied to the emitter |
+| Q4, Q5 | BPW40 | 2 | Phototransistor NPN |
+| R1, R2, R3, R4, R5 | R | 5 | Resistor |
+| SW1 | SW_Push | 1 | Push button switch, generic, two pins |
+| U1, U2, U4, U5 | LM7805_TO220 | 4 | Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220 |
+| U3, U6 | TMP36xS | 2 | Low Voltage Temperature Sensor, SOIC-8 |
